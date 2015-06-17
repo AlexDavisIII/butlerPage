@@ -1,0 +1,63 @@
+<!--This will act as the Home Page for the new Butler Website-->
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Butler Traditional Middle School</title> <!--add icon to title tag-->
+		<link type="text/css" rel="stylesheet" href="style.css"/>
+		<script type="text/javascript" src="jscript.app"/></script> 
+	</head><!--end of the head-->
+	<body>
+		<!--Header and navigation bar to be shown at top of screen-->
+		<section id='head'>
+						<h1 class='topHeader'>Welcome To The Butler Bear Page!</h1>
+						<nav id='topNav'>
+										<ul id='listOfLinks'>
+														<li id='homeLink'>Home</li>
+														<li id='facultyLink'>Faculty/Administration</li>
+														<li id='academicsLink'>Academics</li>
+														<li id='studentsLink'>Students</li>
+														<li id='parentsLink'>Parents</li>
+														<li id='programsLink'>Our Programs</li>
+														<li id='athleticsLink'>Athletics</li>
+														<li id='aboutLink'>About Us</li>
+										</ul>
+						</nav>
+		</section><!--end of section for head-->
+		<article id='content'>
+						<section class='targetReader'>
+									<h1>For Parents</h1>	
+						</section>
+			<section id='important'>
+						<h2>Important Information And Links</h2>
+						<h3 class='info'>Beneficial and Other Important Information For You!</h3>
+
+						<h4>Butler's Community Rewards Program!</h4>
+						<p class='description'><span class='seriously'>You can contribute</span> to helping Butler provide even more for our students. Find out some of the ways you can do that with going to the link below: </p>
+						<br><br>
+						<a href="#"><!--link to PDF file 'community_rewards'--></a>
+			</section><!--end of important section-->
+
+			<section id='parentPortal'>
+						<h2>The Parent Portal!</h2>
+						<h3 class='info'>Keep Track And Form Relationships</h3>
+						<!--surround anchor tag with an image tag og Parent Portal-->
+						<a href='#'><!--Add Link To Parent Portal--></a>
+						<p class='description'>You can do a lot of great things with the parent portal! You can:
+							<ul id='parentPortalList'>
+									<li>Keep up to date with the academic success of your child</li>
+									<li>Check the bus route for your child</li>
+									<li>E-mail your child's teachers</li>
+									<li>Review your child's immunization and health records</li>
+							</ul>
+						</p>
+			</section><!--end of parentPortal section-->
+			<!--START HERE-->
+			<!--Begin laying out Ink Spot section-->
+			<!--Begin laying out Location section-->
+					<section class='targetReader'>
+									<h1>For Students</h1>
+					</section>
+		</article><!--end of the 'content' article-->
+	</body><!--end of the body-->	
+</html>
