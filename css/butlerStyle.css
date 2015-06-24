@@ -1,0 +1,31 @@
+/*Will This show up*/
+
+body{
+	font-size: 16px;
+	background-color: #f05a5a;
+}
+
+#topHeader h1{
+	text-align: center;
+}
+
+#topHeader h1 span{
+	border: 3px solid black;
+	padding: .5em; /*8px all around for padding*/
+}
+
+#topHeader h1 span:hover{
+	transition-property: color, border-color;
+	transition-duration: 3s, .5s;
+	color: #c3c3c3;
+	border-color: white; 
+}
+
+#topHeader ul {
+	text-align: center;
+}
+
+#topHeader ul li{
+	display:inline;
+	padding: .3em;
+}
