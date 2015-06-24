@@ -28,4 +28,9 @@ body{
 #topHeader ul li{
 	display:inline;
 	padding: .3em;
+	border-bottom: 1px solid black;
+}
+
+#topHeader ul li:hover{
+	border-bottom: 1px solid white;
 }
