@@ -34,3 +34,17 @@ body{
 #topHeader ul li:hover{
 	border-bottom: 1px solid white;
 }
+
+.placeholder{
+	width: 15%;
+	height: 8.125em;
+	background-color: white;
+	float: left;
+	display: inline-block;
+}
+
+p {
+	width: 80%;
+	display: block;
+	float: right;
+}
