@@ -43,6 +43,12 @@ body{
 	display: inline-block;
 }
 
+.contentHolder{
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	
+}
+
 p {
 	width: 80%;
 	display: block;
