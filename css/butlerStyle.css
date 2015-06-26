@@ -23,6 +23,7 @@ body{
 
 #topHeader ul {
 	text-align: center;
+	margin-top: 3.125em;
 }
 
 #topHeader ul li{
@@ -47,6 +48,12 @@ body{
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
 	
+}
+
+#exploreSection > p {
+	margin: 3em auto;
+	float: none;
+	text-align: center;	
 }
 
 p {

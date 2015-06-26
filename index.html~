@@ -8,6 +8,8 @@
 		<script type='text/javascript' src='js/script.js'></script>
 	</head>
 	<body>
+
+<!--Beginning Of Top Header-->
 		<section id='topHeader'> 
 			<h1><span>Page Title</span></h1>
 			<nav>
@@ -17,19 +19,60 @@
 					<li class= 'option'>Faculty/Admininstration</li>
 				</ul>	
 			</nav>
-		</section><!--End of topHeader section-->
+		</section>
+<!--End of Top Header section-->
+
+<!--Beginning Of Please Explore Section-->
+<section id='exploreSection'>
+						<p id='exploreDescription'>
+							Explore our page! Learn more about Butler Traditional High School, our curriculums, programs, and even more!
+						</p> 
+		</section>
+<!--End of Please Explore Section-->
+
+<!--Beginning Of For Students Section-->
 		<section class='subHeader'>
 			<h3><span>For Students</span></h3>
 		</section>
-		<section id='pleaseExplore'  class='contentHolder'>
+		<section id='inkspotSection'  class='contentHolder'>
 					<div class='placeholder'></div>
 						<p id='inkspotDescription'>
 							Are you a student at Butler Traditional High School? If you haven't gotten around to it yet, check out the InkSpot! It's a great source for what's happening at Butler from the perspective of the students and teachers, upcoming events, comics, and more! The best part is...you can get this for free. No need to pay a nickle or a dime for our news!
-						</p>
-		</section><!--end of pleaseExplore section-->
-		<section id='inkspotSection'class='contentHolder'></section><!--end of contactSection-->
-		<section id='parentSection' class='contentHolder'></section><!--end of parentSection-->
-		<section id='contactSection' class='contentHolder'></section><!--end of contactSection-->
-		<footer></footer><!--end of footer-->
+						</p> 
+		</section>
+<!--Ending Of Students Section-->
+
+<!--Beginning Of Parent Section-->
+		<section class='subHeader'>
+			<h3><span>For Parents</span></h3>
+		</section>
+		<section id='parentSection' class='contentHolder'>
+					<div class='placeholder'></div>
+						<p id='parentDescription'>
+							Are you a student at Butler Traditional High School? If you haven't gotten around to it yet, check out the InkSpot! It's a great source for what's happening at Butler from the perspective of the students and teachers, upcoming events, comics, and more! The best part is...you can get this for free. No need to pay a nickle or a dime for our news!
+						</p> 
+		</section>
+<!--End of Parent Section-->
+
+<!--Beginning of Contact Section-->
+		<section id='contactSection' class='contentHolder'>
+			<section id='contactSection' class='contentHolder'>
+					<div class='placeholder'></div>
+						<p id='contactDescription'>
+							Are you a student at Butler Traditional High School? If you haven't gotten around to it yet, check out the InkSpot! It's a great source for what's happening at Butler from the perspective of the students and teachers, upcoming events, comics, and more! The best part is...you can get this for free. No need to pay a nickle or a dime for our news!
+						</p> 
+			</section> 
+		</section>
+<!--end of Contact Section-->
+
+<!--Beginning Of Footer-->
+		<footer class='contentHolder'>
+					<div class='placeholder'></div>
+						<p id='footerDescription'>
+							Are you a student at Butler Traditional High School? If you haven't gotten around to it yet, check out the InkSpot! It's a great source for what's happening at Butler from the perspective of the students and teachers, upcoming events, comics, and more! The best part is...you can get this for free. No need to pay a nickle or a dime for our news!
+						</p> 
+			</section>	
+		</footer>
+<!--End of Footer-->
 	</body>
 </html>
