@@ -10,8 +10,8 @@ $(document).ready(function(){
 	var removeTopHeader = new Waypoint({
 		element: document.getElementById('endTarget'),
 		handler: function(){
-			$('#topNavigation').show();
-			$('#topHeader').slideUp();
+			$('#topNavigation').show('fast');
+			$('#topHeader').slideUp('fast');
 		}
 	});
 
@@ -19,7 +19,7 @@ $(document).ready(function(){
 		element: document.getElementById('exploreSection'),
 		handler: function(){
 			$('#topHeader').slideDown();
-			$('#topNavigation').hide();
+			$('#topNavigation').hide('fast');
 		}//end of event handler
 	});//end of waypoint example
 });//when the document is loaded.
