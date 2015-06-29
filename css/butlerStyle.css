@@ -11,6 +11,11 @@ html, body{
 	font-family: 'Oxygen', sans-serif;
 }
 
+a:link{
+	color: #BF0312;
+	text-decoration: none;
+}
+
 img {
 	width 50px;
 	height: 7em;
@@ -21,9 +26,12 @@ img {
 #topHeader{
 	width: 100%;
 	height: 100px;
-	background-color: white;
+	background-color: #003366;
+	color: white;
 	position:fixed;
-}     
+	box-shadow: 5px 5px 20px 10px #BF0312;
+} 
+
 #topHeader ul{
 	
 }
@@ -121,7 +129,8 @@ Inkspot CSS Stuff
 
 #inkspotSection h2{
 	display: inline-block;
-	position: relative;
+ float: left;
+	padding-top: 2em;
 	bottom: 138px;
 	margin-right: 10%;
 }
