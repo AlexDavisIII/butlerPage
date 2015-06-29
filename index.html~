@@ -4,25 +4,27 @@
 		<meta charset='utf-8'/>
 		<title>Butler Traditional High School | Home Of The Butler Bears</title>
 		<link type='text/css' rel='stylesheet' href='css/butlerStyle.css'/>
-		<script type='text/javascript' src='http://code.jquery.com/jquery-1.11.3.min.js'></script>
-		<script type='text/javascript' src='js/script.js'></script>
+		<link href='http://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
+	<!--Beginning of Real Header-->
+	<section id='section0'>
+					<div id='mainHeader'>	
+					</div>
+	</section>
+	<!--End of Real Header-->
+
 
 <!--Beginning Of Top Header-->
+
 		<section id='topHeader'> 
-			<h1><span>Page Title</span></h1>
-			<nav>
-				<ul id='mainNavigation'>
-					<li class='option'>Home</li>
-					<li class= 'option'>About</li>
-					<li class= 'option'>Faculty/Admininstration</li>
-				</ul>	
-			</nav>
+
 		</section>
 <!--End of Top Header section-->
 
 <!--Beginning Of Please Explore Section-->
+<!--Only contains text reminding users to explore the available tabs-->
 <section id='exploreSection'>
 						<p id='exploreDescription'>
 							Explore our page! Learn more about Butler Traditional High School, our curriculums, programs, and even more!
@@ -31,11 +33,14 @@
 <!--End of Please Explore Section-->
 
 <!--Beginning Of For Students Section-->
-		<section class='subHeader'>
-			<h3><span>For Students</span></h3>
-		</section>
 		<section id='inkspotSection'  class='contentHolder'>
-					<div class='placeholder'></div>
+					<div class='imageNlabel'>
+									<h2>The InkSpot</h2>
+									<a href='https://infinitecampus.jefferson.kyschools.us/public/portal/jcps.jsp'>
+										<img src='images/papericon.png'></img>
+									</a>
+
+					</div>
 						<p id='inkspotDescription'>
 							Are you a student at Butler Traditional High School? If you haven't gotten around to it yet, check out the InkSpot! It's a great source for what's happening at Butler from the perspective of the students and teachers, upcoming events, comics, and more! The best part is...you can get this for free. No need to pay a nickle or a dime for our news!
 						</p> 
@@ -43,36 +48,49 @@
 <!--Ending Of Students Section-->
 
 <!--Beginning Of Parent Section-->
-		<section class='subHeader'>
-			<h3><span>For Parents</span></h3>
-		</section>
 		<section id='parentSection' class='contentHolder'>
-					<div class='placeholder'></div>
+				<a href='https://infinitecampus.jefferson.kyschools.us/public/portal/jcps.jsp'>
+					<div id='infiniteCampus'>
+					</div>
+					</a>
+
 						<p id='parentDescription'>
-							Are you a student at Butler Traditional High School? If you haven't gotten around to it yet, check out the InkSpot! It's a great source for what's happening at Butler from the perspective of the students and teachers, upcoming events, comics, and more! The best part is...you can get this for free. No need to pay a nickle or a dime for our news!
+							As a parent, you have the opportunity to follow how your child is progressing in their classes! WIth the Parent Portal, you can maintain good relationships with your child's teachers and the faculty. Keep up with the academic success of your students while you're at it! There are a lot of beneficial information you can learn from browsing around the Parent Portal!
 						</p> 
 		</section>
 <!--End of Parent Section-->
 
 <!--Beginning of Contact Section-->
-		<section id='contactSection' class='contentHolder'>
 			<section id='contactSection' class='contentHolder'>
-					<div class='placeholder'></div>
+							<!--Insert Contact Form Here with Name | Email | And Feedback Areas -->
 						<p id='contactDescription'>
-							Are you a student at Butler Traditional High School? If you haven't gotten around to it yet, check out the InkSpot! It's a great source for what's happening at Butler from the perspective of the students and teachers, upcoming events, comics, and more! The best part is...you can get this for free. No need to pay a nickle or a dime for our news!
+										There are a variety of ways with which to contact us!
 						</p> 
+						<!--beginning of ways to contact list-->
+						<ul id='contactList'>
+										<li>Telephone: 502-485-8220</li>
+										<li>Fax: 502-485-8517</li>
+										<li>Mailing Address: 2222 Crumbs Lane</li>
+										<li>Email: william.allen@jefferson.kyschools.us</li>
+						</ul>
+						<!--end of contact list-->
 			</section> 
-		</section>
 <!--end of Contact Section-->
 
 <!--Beginning Of Footer-->
 		<footer class='contentHolder'>
-					<div class='placeholder'></div>
 						<p id='footerDescription'>
-							Are you a student at Butler Traditional High School? If you haven't gotten around to it yet, check out the InkSpot! It's a great source for what's happening at Butler from the perspective of the students and teachers, upcoming events, comics, and more! The best part is...you can get this for free. No need to pay a nickle or a dime for our news!
+						Copyright &copy 2015 | 2222 Crumbs Ln | AD3 Designs 
 						</p> 
-			</section>	
+					<ul id='mainNavigation'>
+									<li class='option'>Home</li>
+									<li class= 'option'>About</li>
+									<li class= 'option'>Faculty/Admininstration</li>
+					</ul>	
+			</nav>
 		</footer>
 <!--End of Footer-->
+				<script type='text/javascript' src='http://code.jquery.com/jquery-1.11.3.min.js'></script>
+				<script type='text/javascript' src='js/script.js'></script>
 	</body>
 </html>

@@ -1,24 +1,21 @@
 /*Will This show up*/
 
-body{
+/******************
+THE HTML
+******************/
+
+/*Normalizes the page*/
+html, body{
+	margin:0;
+	padding: 0;
 	font-size: 16px;
-	background-color: #f05a5a;
+	background-color: #BF0312;
+	font-family: 'Oxygen', sans-serif;
 }
 
-#topHeader h1{
-	text-align: center;
-}
-
-#topHeader h1 span{
-	border: 3px solid black;
-	padding: .5em; /*8px all around for padding*/
-}
-
-#topHeader h1 span:hover{
-	transition-property: color, border-color;
-	transition-duration: 3s, .5s;
-	color: #c3c3c3;
-	border-color: white; 
+img {
+	width 50px;
+	height: 7em;
 }
 
 #topHeader ul {
@@ -45,19 +42,149 @@ body{
 }
 
 .contentHolder{
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
 	
 }
 
-#exploreSection > p {
-	margin: 3em auto;
-	float: none;
-	text-align: center;	
+/************************
+Main Header (Real)
+************************/
+#section0{
+height: 300px;
+padding: 0;
+margin: 0;
 }
 
-p {
-	width: 80%;
+#mainHeader{
+height: 100%;
+background-image: url(../images/butlerHeader.png);
+background-size: 300px;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+/************************
+Explore Our Page section
+************************/
+#exploreSection{
+	height: 150px;
+	background-color: #003366;
+	color: white;
+	font-weight: 700;
+	text-align: center;
+	padding-top: .5em;
+	font-size: 2em;
+}
+
+/************************
+Inkspot CSS Stuff
+************************/
+
+.imageNlabel{
+	margin-left:25%;
+}
+
+#inkspotSection{
+	color: #BF0312;
+	height: 600px;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: bold;
+	background-color: white;
+	text-align: justify;
+}
+
+#inkspotSection h2{
+	display: inline-block;
+	position: relative;
+	bottom: 138px;
+	margin-right: 10%;
+}
+
+#inkspotSection img{
+	height: 250px;
+	border-radius: 25%;
+}
+
+#inkspotDescription{
+	line-height: 2em;
+	font-size: x-large;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+/*******************
+Parent Section
+*******************/
+
+#parentSection{
+	height: 550px;
+}
+
+#parentDescription{
+	font-size: x-large;
+	font-weight: 700;
+	line-height: 1.5em;
+	padding: 5%;
+	color: white;
+	text-align: justify;
+	line-height: 2em;
+}
+
+#infiniteCampus{
+	height: 150px;
+	width: 150px;
+	margin-top: 1.5em;
+	margin-left: 45%;
+	background-color: #003366;
+	border-radius: 50%;	
+	box-shadow: inset 5px 5px 10px 5px yellow, inset 5px 5px 10px 5px yellow;
+}
+
+/***************************
+Contact Section Stuff
+****************************/
+
+#contactSection{
+	height: 450px;
+	text-align: center;
+	background-color: white;
+}
+
+#contactSection p{
+	margin: 0;
+	padding-top: 1em;
 	display: block;
-	float: right;
+	font-size: x-large;
+	font-weight: bold;
+
+}
+
+#contactList {
+	font-family: 'Ralway', sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #BF0312;
+	display: inline-block;
+	padding-top: 6%;
+	list-style: none;
+	text-align: left;
+	line-height: 2.5;
+}
+
+/***********
+Footer
+***********/
+footer{
+	text-align: center;
+	color: #D3D3D3;
+	font-style: italic;
+}
+
+footer ul{
+	text-align: left;
+	float: left;
+}
+
+footer ul li{
+	display: inline;
+	padding: 10em;
 }
