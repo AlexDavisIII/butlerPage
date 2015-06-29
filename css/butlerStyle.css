@@ -49,6 +49,21 @@ img {
 /************************
 Main Header (Real)
 ************************/
+
+#topNavigation{
+	float: right;
+}
+
+#topNavigation li{
+	display: inline-block;
+	padding: 3em;
+	position: sticky;
+	top: 10px;
+	background-attachment: fixed;
+}
+
+
+
 #section0{
 height: 150px;
 padding: 0;
