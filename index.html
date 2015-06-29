@@ -8,20 +8,35 @@
 		<link href='http://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
+		<!--Beginning Of Top Header-->
+
+		<section id='topHeader'> 
+				<ul id='mainNavigation'>
+					<li class='option'>Home</li>
+					<li class= 'option'>About</li>
+					<li class= 'option'>Faculty/Admininstration</li>
+				</ul>	
+		</section>
+		<!--End of Top Header section-->
+
 	<!--Beginning of Real Header-->
 	<section id='section0'>
-					<div id='mainHeader'>	
-					</div>
+		<ul id='mainNavigation'>
+			<li class='option'>Home</li>
+			<li class= 'option'>About</li>
+			<li class= 'option'>Faculty/Admininstration</li>
+			<span id='endTarget'></span><!--When hit with waypoint scroll, hide the div again-->
+		</ul>	
+
+		<!--Holds the logo of Butler page-->
+		<div id='mainHeader'>	
+		</div>
+		<!--end of what holds the butler webpage logo-->
+
 	</section>
 	<!--End of Real Header-->
 
 
-<!--Beginning Of Top Header-->
-
-		<section id='topHeader'> 
-
-		</section>
-<!--End of Top Header section-->
 
 <!--Beginning Of Please Explore Section-->
 <!--Only contains text reminding users to explore the available tabs-->
@@ -82,15 +97,10 @@
 						<p id='footerDescription'>
 						Copyright &copy 2015 | 2222 Crumbs Ln | AD3 Designs 
 						</p> 
-					<ul id='mainNavigation'>
-									<li class='option'>Home</li>
-									<li class= 'option'>About</li>
-									<li class= 'option'>Faculty/Admininstration</li>
-					</ul>	
-			</nav>
-		</footer>
+	</footer>
 <!--End of Footer-->
 				<script type='text/javascript' src='http://code.jquery.com/jquery-1.11.3.min.js'></script>
+				<script src='js/jQuery_plugins/waypoint-plugin/lib/jquery.waypoints.min.js'></script>
 				<script type='text/javascript' src='js/script.js'></script>
 	</body>
 </html>
