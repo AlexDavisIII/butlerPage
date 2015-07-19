@@ -1,0 +1,92 @@
+.top-bar{
+	background-color: #003366;
+}
+
+body{
+	font-family: 'Open Sans';
+	background-color: #75010C;
+	background-color: #911314;	
+	font-size: 16px;
+}
+
+.panel{
+	margin-top: 70px;
+}	
+
+/************************
+Explore Section Styles
+************************/
+
+#explorePage{
+	height: 15.625em;
+	margin-top: 30px;
+	padding-top: 70px;
+	background-color: #75010C;
+}
+
+#explorePage p{
+	font-size: 1.5em;
+	color: white;
+}
+
+/************************
+Student Section Styles
+************************/
+
+#studentSection{
+	height: 15.625;
+	background-color: white;
+	color: #911314;
+}
+
+#studentSection p {
+		font-size: 1.3em;
+}
+
+#studentSection img {
+	height: 15.625;
+}
+
+/************************
+Parent Section Styles
+************************/
+
+#parentsSection{
+	min-height: 15.625em;
+	background-color: #75010C;
+	color: white;
+	overflow: hidden;
+}
+
+#parentsSection #parentPortalImage {
+	border-radius: 15%;
+	margin-left: 8em;
+}
+
+#parentsSection p {
+		font-size: 1.2em;
+}
+
+/************************
+Contact Section Styles
+************************/
+
+
+#contactSection{
+	min-height: 15.625em;
+	color: #75010C;
+	background-color: white;
+}
+
+#contactSection > div {
+	padding: 1em;
+	margin: 0 auto;
+}
+
+#contactSection div > span {
+	font-size: 1.3em;
+}
+
+#contactComponents{
+	padding-bottom: 2em;
+}
