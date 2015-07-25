@@ -45,12 +45,12 @@
 
 	<!--Section encouraging page exploration-->
 	<section id="explorePage" class="row">
-		<div class="slickSlider">
-						<p id="butlerExplore" >
+		<div class="slickSlider medium-12 column">
+						<p id="butlerExplore"> 
 							<!--Will be the Butler Blue color-->
 							Don't hesitate to browse around the site! Trust us, you'll like what you see here.
 						</p>
-						<p id="butlerTest" >
+						<p id="butlerTest"> 
 								Our Mission Statement is this: We are here to support our students and our parents.
 								Click <a href="#" data-reveal-id="myModal">Click here for the full mission statement</a>
 						</p>
@@ -59,15 +59,23 @@
 	
 	<!--A Section for student. InkSpot being the big start here-->
 	<section id="studentSection" class="row">
-		<!--entire section will be butler red-->
-
-		<div class="row">
-			<p class="medium-3 medium-centered column">This section is for the students!</p>
-		</div>
-		<p class="medium-6 column">
-			<img id="inkspotImage" src="images/inkspotIcon.png" alt="Inkspot For The Students!!!"/>	
-		</p>
-		<p class="medium-6 column">Want to read something halfway decent? Guess what!? YOU CAN! With the InkSpot. Read what your peers have to say about what's going on at school!</p>
+						<div class="row">
+							<p class="medium-3 medium-centered column">This section is for the students!</p>
+						</div>
+		<!--Start of slick slider here-->
+		<article id="studentPart" class="slickSlider medium-12 column">
+						<div>
+										<p class="medium-6 column">
+											<img id="inkspotImage" src="images/inkspotIcon.png" alt="Inkspot For The Students!!!"/>	
+										</p>
+										<p class="medium-6 column">Want to read something halfway decent? Guess what!? YOU CAN! With the InkSpot. Read what your peers have to say about what's going on at school!</p>
+						</div>
+						<div>
+										Take a look at our lunch menu! <a href="http://www.jefferson.k12.ky.us/Departments/NutritionServices/menus/lunchhs.pdf">Click here!</a>
+						</div>
+		</article>
+		
+		
 	</section>
 	
 	<!--Information for the parents, like the Parent Portal-->
@@ -162,7 +170,7 @@
 		<script src="http://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript"></script>
 		<script type="text/javascript" src="foundation/js/foundation.min.js"></script>	
 		<script src="slick-home/slick/slick.min.js" type="text/javascript"></script>
-		<script type="text/javascript" src="js/theSlide.js"></script>
+		<!--		<script type="text/javascript" src="js/theSlide.js"></script> -->
 		<!--Initialize Foundation-->
 		<script>
 			$(document).foundation();	

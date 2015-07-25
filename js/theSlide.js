@@ -1,3 +1,4 @@
+/*
 //hide the butlerHistory and butlerMission sections!
 $('#butlerTest').hide();
 var paragraphElementNum = 0; //set paragraph value to first in explore section (eq(0))
@@ -29,7 +30,19 @@ $('#explorePage').on('click', function(){
 			console.log('the paragraph number is: '+ paragraphElementNum);
 	}
 });
+*/
 
+$(document).foundation();	
 
-
+//Initalize Slick
+$(document).ready(function(){
+$('.slickSlider').slick({
+		autoplay: true, 
+		autoplaySpeed: 4000,
+		arrows: true,
+		dots: true, 
+		draggable: true,
+		mobileFirst: true 
+}).delay(114500);					
+});
 

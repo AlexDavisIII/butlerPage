@@ -18,7 +18,7 @@ Explore Section Styles
 ************************/
 
 #explorePage{
-	min-height: 30.625em;
+	min-height: 15.625em;
 	margin-top: 30px;
 	padding-top: 70px;
 	background-color: #75010C;
@@ -89,4 +89,9 @@ Contact Section Styles
 
 #contactComponents{
 	padding-bottom: 2em;
+}
+
+footer{
+	background-color: #75010C;
+	color: white;
 }
