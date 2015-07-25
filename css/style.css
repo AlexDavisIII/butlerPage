@@ -18,7 +18,7 @@ Explore Section Styles
 ************************/
 
 #explorePage{
-	height: 15.625em;
+	min-height: 30.625em;
 	margin-top: 30px;
 	padding-top: 70px;
 	background-color: #75010C;
@@ -34,7 +34,7 @@ Student Section Styles
 ************************/
 
 #studentSection{
-	height: 15.625;
+	min-height: 30.625em;
 	background-color: white;
 	color: #911314;
 }
@@ -52,7 +52,7 @@ Parent Section Styles
 ************************/
 
 #parentsSection{
-	min-height: 15.625em;
+	min-height: 30.625em;
 	background-color: #75010C;
 	color: white;
 	overflow: hidden;
@@ -73,7 +73,7 @@ Contact Section Styles
 
 
 #contactSection{
-	min-height: 15.625em;
+	min-height: 30.625em;
 	color: #75010C;
 	background-color: white;
 }
