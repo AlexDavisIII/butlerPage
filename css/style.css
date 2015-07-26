@@ -13,6 +13,19 @@ body{
 	margin-top: 70px;
 }	
 
+#butlerBanner{
+	min-height: 15.05em;
+	background-color: white;
+}
+
+#butlerBanner img{
+	margin-left: 8em;
+}
+
+#butlerWelcome{
+	color: #F90304;
+}
+
 /************************
 Explore Section Styles
 ************************/
@@ -27,6 +40,7 @@ Explore Section Styles
 #explorePage p{
 	font-size: 1.5em;
 	color: white;
+	text-align: center;
 }
 
 /************************

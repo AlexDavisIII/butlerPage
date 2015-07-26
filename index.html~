@@ -43,6 +43,15 @@
 		</nav> 
 	</div>
 
+	<section id="butlerBanner" class="row">
+					<!--Wrap divs in slick slider when multiple things show up-->
+					<div class="medium-4 medium-centered column">
+									<img src="images/butlerBear.jpg">
+					</div>	
+					<div class="medium-8 medium-centered column">
+									<h3 id="butlerWelcome">Welcome To The (Un)Official Butler Traditional High School Page!</h3>
+					</div>
+	</section>
 	<!--Section encouraging page exploration-->
 	<section id="explorePage" class="row">
 		<div class="slickSlider medium-12 column">
