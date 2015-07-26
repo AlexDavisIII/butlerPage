@@ -31,18 +31,40 @@ $('#explorePage').on('click', function(){
 	}
 });
 */
-
 $(document).foundation();	
-
+			$('#explorePage, #studentSection, #parentSection, #contactSection, footer').css('display', 'none');
 //Initalize Slick
 $(document).ready(function(){
-$('.slickSlider').slick({
-		autoplay: true, 
-		autoplaySpeed: 4000,
-		arrows: true,
-		dots: true, 
-		draggable: true,
-		mobileFirst: true 
-}).delay(114500);					
+			$('#explorePage').fadeIn(400);
+			$('#studentSection').fadeIn(600);
+			$('#parentSection').fadeIn(800);
+			$('#contactSection').fadeIn(1000);
+			$('footer').fadeIn(1200);
+			
+				//Mission Statement Slick
+				$('.slickSlider').slick({
+						autoplay: true, 
+						autoplaySpeed: 4000,
+						arrows:false,
+						dots: true, 
+						draggable: true,
+						mobileFirst: true 
+				});					
+
+				//Student Section Slick
+				$('.slickStudent').slick({
+						autoplay: true, 
+						autoplaySpeed: 6000,
+						arrows: false,
+						dots: true, 
+						draggable: true,
+						mobileFirst: true 
+				}).fadeTo(0, opacity); 
+
+//when list item anchor is clicked
+//if anything in the ul has an active class
+//	remove the active class
+//add class active to this anchor
+	});
 });
 

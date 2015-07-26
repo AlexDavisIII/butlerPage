@@ -19,7 +19,7 @@ Explore Section Styles
 
 #explorePage{
 	min-height: 15.625em;
-	margin-top: 30px;
+	margin-top: 0px;
 	padding-top: 70px;
 	background-color: #75010C;
 }
@@ -34,7 +34,7 @@ Student Section Styles
 ************************/
 
 #studentSection{
-	min-height: 30.625em;
+	min-height: 10.625em;
 	background-color: white;
 	color: #911314;
 }
@@ -51,20 +51,24 @@ Student Section Styles
 Parent Section Styles
 ************************/
 
-#parentsSection{
+#parentSection{
 	min-height: 30.625em;
 	background-color: #75010C;
 	color: white;
 	overflow: hidden;
 }
 
-#parentsSection #parentPortalImage {
+#parentSection #parentPortalImage {
 	border-radius: 15%;
 	margin-left: 8em;
 }
 
-#parentsSection p {
+#parentSection p {
 		font-size: 1.2em;
+}
+
+#lunchImage{
+	margin-left: 1.6em;
 }
 
 /************************
