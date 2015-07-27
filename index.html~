@@ -104,19 +104,35 @@
 	</section>
 	
 	<!--Information for the parents, like the Parent Portal-->
-	<section id="parentSection" class="row">
-		<div class="row">
-			<p class="medium-3 large-centered column">
-				This is for the parents!
-			</p>
-		</div>
-		<p class="medium-6 column">
-			<img id="parentPortalImage" src="images/parentPortalImage.jpg" alt="Check Out The Parent Portal"/>		
-		</p>
-		<p class="medium-6 column">
-			Use the parent portal to keep up with your child's successes in school. Use this to also maintain a good relationships
-			with the teachers and stay up to date on all of the important things with your child.
-		</p>
+	<section id="parentSection" class="row slickParent">
+					<!--Beginning of First Slide-->
+								<div id="parentSlidePortal">
+										<div class="row">
+											<p class="medium-3 large-centered column">
+												Check out the Parent Portal.
+											</p>
+										</div>
+										<p class="medium-6 column">
+											<img id="parentPortalImage" src="images/parentPortalImage.jpg" alt="Check Out The Parent Portal"/>		
+										</p>
+										<p class="medium-6 column">
+											Use the parent portal to keep up with your child's successes in school. Use this to also maintain a good relationships
+											with the teachers and stay up to date on all of the important things with your child.
+										</p>
+								</div> 
+						<!--Beginning of Second Slide-->
+								<div id="parentSlideLocation">
+												<div id="locationText">
+													 We are located at 2222 Crums Lane!	
+												</div>
+								</div>
+						<!--Beginning of Third Slide-->
+								<div id="parentAdministration">
+								</div>
+						<!--Beginning of Fourth Slide-->
+								<div id="parentSupportStaff">
+								</div>
+				</div><!--End of slick sidebar-->
 	</section>
 	
 	<!--Contact section used to provide feedback, reports, and other things-->
@@ -194,9 +210,12 @@
 						</p><!--ending of Modal Content-->
 			<a class="close-reveal-modal" aria-label="Close">&#215;</a>
 	</div>
+
+	<!--	<script src="https://maps.googleapis.com/maps/api/js"></script> -->
 		<script src="http://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript"></script>
 		<script type="text/javascript" src="foundation/js/foundation.min.js"></script>	
-		<script src="slick/slick.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="slick/slick.min.js"></script>
 		<script type="text/javascript" src="js/theSlide.js"></script>
+
 	</body>
 </html>
