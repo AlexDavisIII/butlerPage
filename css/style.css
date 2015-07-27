@@ -47,6 +47,8 @@ Explore Section Styles
 Student Section Styles
 ************************/
 
+
+
 #studentSection{
 	min-height: 10.625em;
 	background-color: white;
@@ -61,6 +63,10 @@ Student Section Styles
 	height: 15.625;
 }
 
+#studentSlide3{
+	margin-top: 3em;
+}
+
 #lunchImage{
 	margin-left: 3.6em;
 }
@@ -68,6 +74,26 @@ Student Section Styles
 #lunchImage img{
 	width: 150px;
 }
+
+#lunchDescription{
+	position: relative;
+	bottom: 6em;
+}
+
+#lunchText{
+	color: #911314;
+}
+
+#actprepImage img{
+	margin-left: 6em;
+}
+
+
+#actprepText{
+	position: relative;
+	color: #911314;
+}
+
 /************************
 Parent Section Styles
 ************************/
