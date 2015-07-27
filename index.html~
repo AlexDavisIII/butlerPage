@@ -48,7 +48,7 @@
 					<div class="medium-4 medium-centered column">
 									<img src="images/butlerBear.jpg">
 					</div>	
-					<div class="medium-8 medium-centered column">
+					<div id="butlerWelcomeContainer" class="medium-8 medium-centered column">
 									<h3 id="butlerWelcome">Welcome To The (Un)Official Butler Traditional High School Page!</h3>
 					</div>
 	</section>
@@ -80,12 +80,14 @@
 										<p class="medium-6 column">Want to read something halfway decent? Guess what!? YOU CAN! With the InkSpot. Read what your peers have to say about what's going on at school!</p>
 						</div>
 						<div id="studentSlide2">
-										<div id="lunchImage" class="medium-6 column">
+										<div id="lunchImage" class="medium-8 medium-centered column">
 														<img src="images/lunchMenu.jpg">
 										</div>
-										<p id="lunchDescription" class="medium-6 column">
-										Take a look at our lunch menu! <a href="http://www.jefferson.k12.ky.us/Departments/NutritionServices/menus/lunchhs.pdf">Click here!</a>
-										</p>
+										<div id="lunchDescription" class="medium-4 column">
+														<p id="lunchDescription"> 
+														Take a look at our lunch menu! <a href="http://www.jefferson.k12.ky.us/Departments/NutritionServices/menus/lunchhs.pdf">Click here!</a>
+														</p>
+										</div>
 						</div>
 		</article>
 		

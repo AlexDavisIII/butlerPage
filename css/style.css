@@ -61,6 +61,13 @@ Student Section Styles
 	height: 15.625;
 }
 
+#lunchImage{
+	margin-left: 3.6em;
+}
+
+#lunchImage img{
+	width: 150px;
+}
 /************************
 Parent Section Styles
 ************************/
@@ -81,9 +88,7 @@ Parent Section Styles
 		font-size: 1.2em;
 }
 
-#lunchImage{
-	margin-left: 1.6em;
-}
+
 
 /************************
 Contact Section Styles
