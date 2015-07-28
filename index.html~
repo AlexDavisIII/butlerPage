@@ -45,10 +45,10 @@
 
 	<section id="butlerBanner" class="row">
 					<!--Wrap divs in slick slider when multiple things show up-->
-					<div class="medium-4 medium-centered column">
+					<div class="medium-6 medium-centered column">
 									<img src="images/butlerBear.jpg">
 					</div>	
-					<div id="butlerWelcomeContainer" class="medium-8 medium-centered column">
+					<div id="butlerWelcomeContainer" class="medium-6 medium-centered column">
 									<h3 id="butlerWelcome">Welcome To The (Un)Official Butler Traditional High School Page!</h3>
 					</div>
 	</section>
@@ -61,7 +61,7 @@
 						</p>
 						<p id="butlerTest"> 
 								Our Mission Statement is this: We are here to support our students and our parents.
-								Click <a href="#" data-reveal-id="myModal">Click here for the full mission statement</a>
+								<a href="#" data-reveal-id="myModal">Click here for the full mission statement</a>
 						</p>
 		</div>
 	</section>
@@ -69,7 +69,7 @@
 	<!--A Section for student. InkSpot being the big start here-->
 	<section id="studentSection" class="row">
 						<div class="row">
-							<p class="medium-3 medium-centered column">This section is for the students!</p>
+							<p class="medium-6 medium-centered column">This section is for the students!</p>
 						</div>
 		<!--Start of slick slider here-->
 		<article id="studentPart" class="slickStudent medium-12 column">
@@ -80,20 +80,20 @@
 										<p class="medium-6 column">Want to read something halfway decent? Guess what!? YOU CAN! With the InkSpot. Read what your peers have to say about what's going on at school!</p>
 						</div>
 						<div id="studentSlide2">
-										<div id="lunchImage" class="medium-3 medium-centered column">
+										<div id="lunchImage" class="medium-6 column">
 														<img src="images/lunchMenu.jpg">
 										</div>
-										<div id="lunchDescription" class="medium-9 column">
+										<div id="lunchDescription" class="medium-6 column">
 														<h3 id="lunchText"> 
-														Take a look at our lunch menu! <a href="http://www.jefferson.k12.ky.us/Departments/NutritionServices/menus/lunchhs.pdf">Click here!</a>
+														Take a look at our lunch menu! From here, you can keep up to date on what you are going to be eating every week. It's kind of cool to know. Trust me. <a href="http://www.jefferson.k12.ky.us/Departments/NutritionServices/menus/lunchhs.pdf">Click here!</a>
 														</h3>
 										</div>
 						</div>
 						<div id="studentSlide3">
-										<div id="actprepImage" class="medium-4 column">
+										<div id="actprepImage" class="medium-6 column">
 														<img src="images/ACTPrep.gif">
 										</div>
-														<div id="actprepDescription" class="medium-8  medium-centered column">
+														<div id="actprepDescription" class="medium-6 column">
 																		<h3 id="actprepText">ACT Prep Information! Why not click <a href="http://www.tcaprep.com/nsg/index.php/members/login/1628135761">here</a> to sign up?</h3>
 														</div>
 										</div>
@@ -128,6 +128,34 @@
 								</div>
 						<!--Beginning of Third Slide-->
 								<div id="parentAdministration">
+												<h3 id="principalHeading">THE PRINCIPALS!</h3>
+												<ul class="small-block-grid-2 medium-block-grid-3">
+																<li>
+																		<p>Principal: William Allen</p>
+																		<p>Email: william.allen@butlerwhatever.com</p>
+																		<img src="images/administration/principals/allen.jpg"></a>
+																</li>
+																<li>
+																		<span>Principal: William Allen</span>
+																		<span>Email: william.allen@butlerwhatever.com</span>
+																				<img src="images/administration/principals/johnson.jpg"></a>
+																</li>
+																<li>
+																		<span>Principal: William Allen</span>
+																		<span>Email: william.allen@butlerwhatever.com</span>
+																				<img src="images/administration/principals/reedy.jpg"></a>
+																</li>
+																<li>
+																		<span>Principal: William Allen</span>
+																		<span>Email: william.allen@butlerwhatever.com</span>
+																				<img src="images/administration/principals/walker.jpg"></a>
+																</li>
+																<li>
+																		<span>Principal: William Allen</span>
+																		<span>Email: william.allen@butlerwhatever.com</span>
+																				<img src="images/administration/principals/ziegler.jpg"></a>
+																</li>
+												</ul>
 								</div>
 						<!--Beginning of Fourth Slide-->
 								<div id="parentSupportStaff">
@@ -217,5 +245,8 @@
 		<script type="text/javascript" src="slick/slick.min.js"></script>
 		<script type="text/javascript" src="js/theSlide.js"></script>
 
+		<!--NOTES-->
+		<!--Add Administration and Support Staff Slides with Foundation Block Grid-->
+		<!--Potentially Add functionality: Click on image, that image shows up in middle of section with name/email-->
 	</body>
 </html>

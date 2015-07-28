@@ -6,7 +6,7 @@ body{
 	font-family: 'Open Sans';
 	background-color: #75010C;
 	background-color: #911314;	
-	font-size: 16px;
+	font-size: 28px;
 }
 
 .panel{
@@ -67,30 +67,23 @@ Student Section Styles
 	margin-top: 3em;
 }
 
-#lunchImage{
-	margin-left: 3.6em;
-}
-
 #lunchImage img{
-	width: 150px;
+	width: 50%;
 }
 
 #lunchDescription{
-	position: relative;
-	bottom: 6em;
+
 }
 
 #lunchText{
-	color: #911314;
+	
 }
 
-#actprepImage img{
-	margin-left: 6em;
+#actprepImage img {
+	width: 50%;
 }
-
 
 #actprepText{
-	position: relative;
 	color: #911314;
 }
 
@@ -107,11 +100,31 @@ Parent Section Styles
 
 #parentSection #parentPortalImage {
 	border-radius: 15%;
-	margin-left: 8em;
+	margin-left: 3em;
+}
+
+#parentPortalImage{
+	width: 60%;
+	height: 60%;
 }
 
 #parentSection p {
 		font-size: 1.2em;
+}
+
+#parentAdministration ul li img{
+	width: 200px;
+}
+
+#principalHeading{
+	text-align: center;
+	color: white;
+}
+
+#map-canvas{
+	width: 500px;
+	height: 400px;
+	background-color: green;
 }
 
 /************************
