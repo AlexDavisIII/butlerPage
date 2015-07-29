@@ -45,10 +45,10 @@
 
 	<section id="butlerBanner" class="row">
 					<!--Wrap divs in slick slider when multiple things show up-->
-					<div class="medium-6 medium-centered column">
+					<div class="large-6 column">
 									<img src="images/butlerBear.jpg">
 					</div>	
-					<div id="butlerWelcomeContainer" class="medium-6 medium-centered column">
+					<div id="butlerWelcomeContainer" class="large-6 column">
 									<h3 id="butlerWelcome">Welcome To The (Un)Official Butler Traditional High School Page!</h3>
 					</div>
 	</section>
@@ -125,90 +125,156 @@
 												<h3 id="principalHeading">THE ADMINISTRATION!</h3>
 												<ul class="small-block-grid-1 medium-block-grid-2" >
 																<li>
-																		<p>William Allen</p>
-																		<p>Principal</p>
-																		<p>Email: william.allen@jefferson.kyschools.us</p>
-																		<img src="images/administration/principals/allen.jpg"></a>
+																		<div class="small-3 leftInfo column">
+																						<img src="images/administration/principals/allen.jpg"></a>
+																		</div>
+																		<div class="small-9 rightInfo column">
+																						<p class="staffName">William Allen</p>
+																						<p class="staffTitle">Principal</p>
+																						<p class="staffEmail">william.allen@jefferson.kyschools.us</p>
+																		</div>
 																</li>
 																<li>
-																		<p>Jeremy Johnson</p>
-																		<p>Freshman Asst. Principal</p>
-																		<p>Email: jeremy.johnson@jefferson.kyschools.us</p>
+																	<div class="small-3 leftInfo column">
 																				<img src="images/administration/principals/johnson.jpg"></a>
+																	</div>
+																	<div class="small-9 rightInfo column">
+																		<p class="staffName">Jeremy Johnson</p>
+																		<p class="staffTitle">Freshman Asst. Principal</p>
+																		<p class="staffEmail">jeremy.johnson@jefferson.kyschools.us</p>
+																	</div>
+																	
 																</li>
 																<li>
-																		<p>Rob Reedy</p>
-																		<p>Senior Asst. Principal</p>
-																		<p>Email: rob.reedy@jefferson.kyschools.us</p>
+																	<div class="small-3 leftInfo column">
 																				<img src="images/administration/principals/reedy.jpg"></a>
+																	</div>
+																	<div class="small-9 rightInfo column">
+																		<p class="staffName">Rob Reedy</p>
+																		<p class="staffTitle">Senior Asst. Principal</p>
+																		<p class="staffEmail">rob.reedy@jefferson.kyschools.us</p>
+																	</div>
 																</li>
 																<li>
-																		<p>Kathy Walker</p>
-																		<p>Asst. Principal/Building Assessment Coordinator</p>
-																		<p>Email: kathy.walker@jefferson.kyschools.us</p>
+																		<div class="small-3 leftInfo column">
 																				<img src="images/administration/principals/walker.jpg"></a>
+																		</div>
+																		<div class="small-9 rightInfo column">
+																				<p class="staffName">Kathy Walker</p>
+																				<p class="staffTitle">Asst. Principal/Building Assessment Coordinator</p>
+																				<p class="staffEmail">kathy.walker@jefferson.kyschools.us</p>
+																		</div>
 																</li>
 																<li>
-																		<p>Travis Ziegler</p>	
-																		<p>Sophomore/Junior Admin</p>
-																		<p>Email: travis.ziegler@jefferson.kyschools.us</p>
+																<div class="small-6 rightInfo column">
+																		<p class="staffName">Travis Ziegler</p>	
+																		<p class="staffTitle">Sophomore/Junior Admin</p>
+																		<p class="staffEmail">Email: travis.ziegler@jefferson.kyschools.us</p>
+																	</div>
+																	<div class="small-6 leftInfo column">
 																				<img src="images/administration/principals/ziegler.jpg"></a>
+																	</div>
 																</li>
 																<li>
-																		<p>Julianne Davis</p>
-																		<p>Junior Counselor</p>
-																		<p>Email: julianne.davis@jefferson.kyschools.us</p>
+																	<div class="small-6 rightInfo column">
+																		<p class="staffName">Julianne Davis</p>
+																		<p class="staffTitle">Junior Counselor</p>
+																		<p class="staffEmail">Email: julianne.davis@jefferson.kyschools.us</p>
+																	</div>
+																	<div class="small-6 leftInfo column">
 																		<img src="images/administration/counselor/bonnie_davis.jpg"></a>
+																	</div>
 																</li>
 																<li>
-																		<p>Kevin Fowler</p>
-																		<p>Freshman Counselor</p>
-																		<p>Email: kevin.fowler@jefferson.kyschools.us</p>
+																	<div class="small-6 rightInfo column">
+																		<p class="staffName">Kevin Fowler</p>
+																		<p class="staffTitle">Freshman Counselor</p>
+																		<p class="staffEmail">Email: kevin.fowler@jefferson.kyschools.us</p>
+																	</div>
+																	<div class="small-6 leftInfo column">
 																				<img src="images/administration/counselor/fowler.jpg"></a>
+																	</div>
 																</li>
 																<li>
-																		<p>Karin McDevitt</p>
-																		<p>Sophomore Counselor</p>
-																		<p>Email: karin.mcdevitt@jefferson.kyschools.us</p>
+																<div class="small-6 rightInfo column">
+																		<p class="staffName">Karin McDevitt</p>
+																		<p class="staffTitle">Sophomore Counselor</p>
+																		<p class="staffEmail">Email: karin.mcdevitt@jefferson.kyschools.us</p>
+																</div>
+																<div class="small-6 leftInfo column">
 																				<img src="images/administration/counselor/mcdevitt.jpg"></a>
+																</div>
 																</li>
 																<li>
-																		<p>Michael Stites</p>
-																		<p>Senior Counselor</p>
-																		<p>Email: michael.stites@jefferson.kyschools.us</p>
+																<div class="small-6 rightInfo column">
+																		<p class="staffName">Michael Stites</p>
+																		<p class="staffTitle">Senior Counselor</p>
+																		<p class="staffEmail">Email: michael.stites@jefferson.kyschools.us</p>
+																</div>
+																<div class="small-6 leftInfo column">
 																				<img src="images/administration/counselor/michael_stites.jpg"></a>
+																</div>
 																</li>
 												</ul>
 								</div>
 						<!--Beginning of Fourth Slide-->
-								<div id="parentAdminCounselor">
-												<h3 id="counselorHeading">Counselors!</h3>
-												<ul class="small-block-grid-2 medium-block-grid-3">
+								<div id="parentSupportStaff">
+												<h3 id="supportStaffHeading">The Support Staff!</h3>
+												<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
 																<li>
-																		<p>Principal: William Allen</p>
-																		<p>Email: william.allen@butlerwhatever.com</p>
-																		<img src="images/administration/principals/allen.jpg"></a>
+																		<p class="staffName">Sonny Ingram</p>
+																		<p class"staffTitle">Security</p>
+																		<p class="staffEmail">Email: melvin.ingram@jefferson.kyschools.us</p>
+																		<img src="images/administration/support/ingram.jpg"></a>
 																</li>
 																<li>
-																		<p>Principal: William Allen</p>
-																		<p>Email: william.allen@butlerwhatever.com</p>
-																				<img src="images/administration/principals/johnson.jpg"></a>
+																		<p class="staffName">Debbie Lewis</p>
+																		<p class"staffTitle">School Clerk</p>
+																		<p class="staffEmail">Email: debra.lewis@jefferson.kyschools.us</p>
+																		<img src="images/administration/support/lewis.jpg"></a>
 																</li>
 																<li>
-																		<p>Principal: William Allen</p>
-																		<p>Email: william.allen@butlerwhatever.com</p>
-																				<img src="images/administration/principals/reedy.jpg"></a>
+																		<p class="staffName">Mary Lou Adams</p>
+																		<p class"staffTitle">Ordering and Receiving Clerk</p>
+																		<p class="staffEmail">Email: marylou.adam@jefferson.kyschools.us</p>
+																		<img src="images/administration/support/mary_lou_adams.jpg"></a>
 																</li>
 																<li>
-																		<p>Principal: William Allen</p>
-																		<p>Email: william.allen@butlerwhatever.com</p>
-																				<img src="images/administration/principals/walker.jpg"></a>
+																		<p class="staffName">DeDe Epperson</p>
+																		<p class"staffTitle">Security</p>
+																		<p class="staffEmail">Email: dede.epperson@jefferson.kyschools.us</p>
+																		<img src="images/administration/support/lewis.jpg"></a>
 																</li>
 																<li>
-																		<p>Principal: William Allen</p>
-																		<p>Email: william.allen@butlerwhatever.com</p>
-																				<img src="images/administration/principals/ziegler.jpg"></a>
+																		<p class="staffName">Cathy Cannon</p>
+																		<p class"staffTitle">Bookkeeper</p>
+																		<p class="staffEmail">Email: cathy.cannon@jefferson.kyschools.us</p>
+																		<img src="images/administration/support/canon_c.jpg"></a>
+																</li> 
+																<li>
+																		<p class="staffName">Bonnie Davis</p>
+																		<p class"staffTitle">Attendance Clerk</p>
+																		<p class="staffEmail">Email: bonnie.davis@jefferson.kyschools.us</p>
+																		<img src="images/administration/support/davis_bonnie_staff.jpg"></a>
 																</li>
+																<li>
+																		<p class="staffName">Vivian French</p>
+																		<p class"staffTitle">Senior Transcripts</p>
+																		<p class="staffEmail">Email: vivian.french@jefferson.kyschools.us</p>
+																		<img src="images/administration/support/french.jpg"></a>
+																</li>
+																<li>
+																		<p class="staffName">Kristi Clark</p>
+																		<p class"staffTitle">Records Clerk</p>
+																		<p class="staffEmail">Email: kristi.clark@jefferson.kyschools.us</p>
+																		<img src="images/administration/support/kristi_clark.jpg"></a>
+																</li>  
+																<li>
+																		<p class="staffName">Lynn Lewis</p>
+																		<p class"staffTitle">Youth Services</p>
+																		<p class="staffEmail">Email: lynn.lewis@jefferson.kyschools.us</p>
+																		<img src="images/administration/support/lewis_lynn.jpg"></a>
+																</li> 
 												</ul>
 								</div>
 				</div><!--End of slick sidebar-->
