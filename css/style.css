@@ -112,7 +112,12 @@ Parent Section Styles
 		font-size: 1.2em;
 }
 
-#parentAdministration ul li img{
+#parentAdminPrincipal ul p{
+	margin-top: 1em;
+	line-height: 1px;
+}
+
+#parentAdminPrincipal ul li img{
 	width: 200px;
 }
 

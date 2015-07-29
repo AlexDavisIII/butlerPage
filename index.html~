@@ -120,15 +120,68 @@
 											with the teachers and stay up to date on all of the important things with your child.
 										</p>
 								</div> 
-						<!--Beginning of Second Slide-->
-								<div id="parentSlideLocation">
-												<div id="locationText">
-													 We are located at 2222 Crums Lane!	
-												</div>
-								</div>
 						<!--Beginning of Third Slide-->
-								<div id="parentAdministration">
-												<h3 id="principalHeading">THE PRINCIPALS!</h3>
+								<div id="parentAdminPrincipal">
+												<h3 id="principalHeading">THE ADMINISTRATION!</h3>
+												<ul class="small-block-grid-2" >
+																<li>
+																		<p>Principal: William Allen</p>
+																		<p>Email: william.allen@jefferson.kyschools.us</p>
+																		<img src="images/administration/principals/allen.jpg"></a>
+																</li>
+																<li>
+																		<p>Jeremy Johnson</p>
+																		<p>Freshman Asst. Principal</p>
+																		<p>Email: jeremy.johnson@jefferson.kyschools.us</p>
+																				<img src="images/administration/principals/johnson.jpg"></a>
+																</li>
+																<li>
+																		<p>Rob Reedy</p>
+																		<p>Senior Asst. Principal</p>
+																		<p>Email: rob.reedy@jefferson.kyschools.us</p>
+																				<img src="images/administration/principals/reedy.jpg"></a>
+																</li>
+																<li>
+																		<p>Kathy Walker</p>
+																		<p>Asst. Principal/Building Assessment Coordinator</p>
+																		<p>Email: kathy.walker@jefferson.kyschools.us</p>
+																				<img src="images/administration/principals/walker.jpg"></a>
+																</li>
+																<li>
+																		<p>Travis Ziegler</p>	
+																		<p>Sophomore/Junior Admin</p>
+																		<p>Email: travis.ziegler@jefferson.kyschools.us</p>
+																				<img src="images/administration/principals/ziegler.jpg"></a>
+																</li>
+																<li>
+																		<p>Julianne Davis</p>
+																		<p>Junior Counselor</p>
+																		<p>Email: julianne.davis@jefferson.kyschools.us</p>
+																		<img src="images/administration/counselor/bonnie_davis.jpg"></a>
+																</li>
+																<li>
+																		<p>Kevin Fowler</p>
+																		<p>Freshman Counselor</p>
+																		<p>Email: kevin.fowler@jefferson.kyschools.us</p>
+																				<img src="images/administration/counselor/fowler.jpg"></a>
+																</li>
+																<li>
+																		<p>Karin McDevitt</p>
+																		<p>Sophomore Counselor</p>
+																		<p>Email: karin.mcdevitt@jefferson.kyschools.us</p>
+																				<img src="images/administration/counselor/mcdevitt.jpg"></a>
+																</li>
+																<li>
+																		<p>Michael Stites</p>
+																		<p>Senior Counselor</p>
+																		<p>Email: michael.stites@jefferson.kyschools.us</p>
+																				<img src="images/administration/counselor/michael_stites.jpg"></a>
+																</li>
+												</ul>
+								</div>
+						<!--Beginning of Fourth Slide-->
+								<div id="parentAdminCounselor">
+												<h3 id="counselorHeading">Counselors!</h3>
 												<ul class="small-block-grid-2 medium-block-grid-3">
 																<li>
 																		<p>Principal: William Allen</p>
@@ -136,29 +189,26 @@
 																		<img src="images/administration/principals/allen.jpg"></a>
 																</li>
 																<li>
-																		<span>Principal: William Allen</span>
-																		<span>Email: william.allen@butlerwhatever.com</span>
+																		<p>Principal: William Allen</p>
+																		<p>Email: william.allen@butlerwhatever.com</p>
 																				<img src="images/administration/principals/johnson.jpg"></a>
 																</li>
 																<li>
-																		<span>Principal: William Allen</span>
-																		<span>Email: william.allen@butlerwhatever.com</span>
+																		<p>Principal: William Allen</p>
+																		<p>Email: william.allen@butlerwhatever.com</p>
 																				<img src="images/administration/principals/reedy.jpg"></a>
 																</li>
 																<li>
-																		<span>Principal: William Allen</span>
-																		<span>Email: william.allen@butlerwhatever.com</span>
+																		<p>Principal: William Allen</p>
+																		<p>Email: william.allen@butlerwhatever.com</p>
 																				<img src="images/administration/principals/walker.jpg"></a>
 																</li>
 																<li>
-																		<span>Principal: William Allen</span>
-																		<span>Email: william.allen@butlerwhatever.com</span>
+																		<p>Principal: William Allen</p>
+																		<p>Email: william.allen@butlerwhatever.com</p>
 																				<img src="images/administration/principals/ziegler.jpg"></a>
 																</li>
 												</ul>
-								</div>
-						<!--Beginning of Fourth Slide-->
-								<div id="parentSupportStaff">
 								</div>
 				</div><!--End of slick sidebar-->
 	</section>
