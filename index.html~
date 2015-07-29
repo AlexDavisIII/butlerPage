@@ -123,9 +123,10 @@
 						<!--Beginning of Third Slide-->
 								<div id="parentAdminPrincipal">
 												<h3 id="principalHeading">THE ADMINISTRATION!</h3>
-												<ul class="small-block-grid-2" >
+												<ul class="small-block-grid-1 medium-block-grid-2" >
 																<li>
-																		<p>Principal: William Allen</p>
+																		<p>William Allen</p>
+																		<p>Principal</p>
 																		<p>Email: william.allen@jefferson.kyschools.us</p>
 																		<img src="images/administration/principals/allen.jpg"></a>
 																</li>
