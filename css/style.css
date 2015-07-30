@@ -146,9 +146,14 @@ Parent Section Styles
 	color: white;
 }
 
+#parentSupportStaff{
+	
+}
+
 #parentSupportStaff img{
-	width: 200px;
-	height: 230px;
+	border-radius: 70%;
+	width: 8em;
+	
 }
 
 #parentSupportStaff ul p{

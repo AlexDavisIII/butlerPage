@@ -161,59 +161,60 @@
 																		</div>
 																		<div class="small-9 rightInfo column">
 																				<p class="staffName">Kathy Walker</p>
-																				<p class="staffTitle">Asst. Principal/Building Assessment Coordinator</p>
+																				<p class="staffTitle">Asst. Principal/</p>
+																				<p class="staffTitle">Building Assessment Coordinator</p>
 																				<p class="staffEmail">kathy.walker@jefferson.kyschools.us</p>
 																		</div>
 																</li>
 																<li>
-																<div class="small-6 rightInfo column">
+																	<div class="small-3 leftInfo column">
+																				<img src="images/administration/principals/ziegler.jpg"></a>
+																	</div>
+																<div class="small-9 rightInfo column">
 																		<p class="staffName">Travis Ziegler</p>	
 																		<p class="staffTitle">Sophomore/Junior Admin</p>
 																		<p class="staffEmail">Email: travis.ziegler@jefferson.kyschools.us</p>
 																	</div>
-																	<div class="small-6 leftInfo column">
-																				<img src="images/administration/principals/ziegler.jpg"></a>
-																	</div>
 																</li>
 																<li>
-																	<div class="small-6 rightInfo column">
+																	<div class="small-3 leftInfo column">
+																		<img src="images/administration/counselor/bonnie_davis.jpg"></a>
+																	</div>
+																	<div class="small-9 rightInfo column">
 																		<p class="staffName">Julianne Davis</p>
 																		<p class="staffTitle">Junior Counselor</p>
 																		<p class="staffEmail">Email: julianne.davis@jefferson.kyschools.us</p>
 																	</div>
-																	<div class="small-6 leftInfo column">
-																		<img src="images/administration/counselor/bonnie_davis.jpg"></a>
-																	</div>
 																</li>
 																<li>
-																	<div class="small-6 rightInfo column">
+																	<div class="small-3 leftInfo column">
+																				<img src="images/administration/counselor/fowler.jpg"></a>
+																	</div>
+																	<div class="small-9 rightInfo column">
 																		<p class="staffName">Kevin Fowler</p>
 																		<p class="staffTitle">Freshman Counselor</p>
 																		<p class="staffEmail">Email: kevin.fowler@jefferson.kyschools.us</p>
 																	</div>
-																	<div class="small-6 leftInfo column">
-																				<img src="images/administration/counselor/fowler.jpg"></a>
-																	</div>
 																</li>
 																<li>
-																<div class="small-6 rightInfo column">
+																	<div class="small-3 leftInfo column">
+																				<img src="images/administration/counselor/mcdevitt.jpg"></a>
+																	</div>
+																	<div class="small-9 rightInfo column">
 																		<p class="staffName">Karin McDevitt</p>
 																		<p class="staffTitle">Sophomore Counselor</p>
 																		<p class="staffEmail">Email: karin.mcdevitt@jefferson.kyschools.us</p>
-																</div>
-																<div class="small-6 leftInfo column">
-																				<img src="images/administration/counselor/mcdevitt.jpg"></a>
-																</div>
+																	</div>
 																</li>
 																<li>
-																<div class="small-6 rightInfo column">
+																	<div class="small-3 leftInfo column">
+																				<img src="images/administration/counselor/michael_stites.jpg"></a>
+																	</div>
+																	<div class="small-9 rightInfo column">
 																		<p class="staffName">Michael Stites</p>
 																		<p class="staffTitle">Senior Counselor</p>
 																		<p class="staffEmail">Email: michael.stites@jefferson.kyschools.us</p>
-																</div>
-																<div class="small-6 leftInfo column">
-																				<img src="images/administration/counselor/michael_stites.jpg"></a>
-																</div>
+																	</div>
 																</li>
 												</ul>
 								</div>
