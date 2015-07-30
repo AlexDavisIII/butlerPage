@@ -1,3 +1,20 @@
+.staffName{
+	font-size: 1.7em;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+	padding-bottom: 10px;
+}
+
+.staffTitle{
+	font-size: .8em;
+	text-shadow: 0px 0px 5px white;
+}
+
+.staffEmail{
+	font-size: .8em;
+}
+
 .top-bar{
 	background-color: #003366;
 }
@@ -76,14 +93,6 @@ Student Section Styles
 	width: 50%;
 }
 
-#lunchDescription{
-
-}
-
-#lunchText{
-	
-}
-
 #actprepImage img {
 	width: 50%;
 }
@@ -95,6 +104,7 @@ Student Section Styles
 /************************
 Parent Section Styles
 ************************/
+
 
 #parentSection{
 	min-height: 30.625em;
@@ -113,18 +123,8 @@ Parent Section Styles
 	height: 60%;
 }
 
-#parentSection p {
-		font-size: 1.2em;
-}
-
 /*Parent Administrative Section*/
 
-#parentAdminPrincipal .rightInfo{
-}
-
-#parentAdminPrincipal .leftInfo{
-	
-}
 
 #parentAdminPrincipal ul p{
 	margin-top: 1em;
@@ -144,10 +144,6 @@ Parent Section Styles
 #supportStaffHeading{
 	text-align: center;
 	color: white;
-}
-
-#parentSupportStaff{
-	
 }
 
 #parentSupportStaff img{
@@ -195,3 +191,4 @@ footer{
 	background-color: #75010C;
 	color: white;
 }
+
