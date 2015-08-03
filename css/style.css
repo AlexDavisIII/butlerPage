@@ -19,11 +19,20 @@
 	background-color: #003366;
 }
 
+#topBarList li a{
+	background-color: #003366;
+}
+
+#topBarList li a:hover{
+	background-color: #75010C;
+}
+
 body{
-	font-family: 'Open Sans';
+	font-family: 'Signika Negative';
 	background-color: #75010C;
 	background-color: #911314;	
 	font-size: 28px;
+	text-align: justify;
 }
 
 .panel{
@@ -44,6 +53,8 @@ body{
 }
 
 #butlerWelcome{
+	font-size: 'Signika Negative';
+	font-weight: bold;
 	color: #F90304;
 	text-align: center;
 	font-size: 1.3em;
@@ -93,6 +104,10 @@ Student Section Styles
 	width: 50%;
 }
 
+#lunchText{
+	color: #75010C;
+}
+
 #actprepImage img {
 	width: 50%;
 }
@@ -105,6 +120,14 @@ Student Section Styles
 Parent Section Styles
 ************************/
 
+#topParent{
+	margin-bottom: 2em;
+	padding-top: 30px;
+}
+
+#topParentText{
+	padding-top: 5%;
+}
 
 #parentSection{
 	min-height: 30.625em;
@@ -116,8 +139,12 @@ Parent Section Styles
 #parentSection #parentPortalImage {
 	border-radius: 20%;
 	position: relative;
-	left: 35%;
-	width: 30%;
+	left: 20%;
+	width: 70%;
+}
+
+#parentSlidePortal p {
+	font-size: 1.5em;
 }
 
 /*Parent Administrative Section*/
@@ -182,6 +209,11 @@ Contact Section Styles
 
 #contactComponents{
 	padding-bottom: 2em;
+}
+
+#telephoneElements li{
+	padding-bottom: 10px;
+	font-size: 1.2em;
 }
 
 footer{
