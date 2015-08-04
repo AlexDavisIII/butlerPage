@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 	<head>
@@ -92,5 +93,421 @@
 <!--End of Footer-->
 				<script type='text/javascript' src='http://code.jquery.com/jquery-1.11.3.min.js'></script>
 				<script type='text/javascript' src='js/script.js'></script>
+=======
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Butler Traditional High School Website</title>
+		<link type="text/css" rel="stylesheet" href="foundation/css/foundation.min.css"/>
+		<link type="text/css" rel="stylesheet" href="foundation/css/normalize.css"/>
+		<link type="text/css" rel="stylesheet" href="slick/slick.css"/>
+		<link type="text/css" rel="stylesheet" href="slick/slick-theme.css"/>
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600|Open+Sans:400,600italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Signika+Negative:400,700,600' rel='stylesheet' type='text/css'>
+	</head>	
+
+	<body>	
+	<div id="top-bar-section" class="contain-to-grid fixed">
+		<!--The topbar (navbar)-->	
+		<nav class="top-bar" data-topbar role="novitgation">
+			<ul class="title-area">
+				<li class="name">
+					<span><a href="#">BTHS</a></span>
+				</li>
+				<li class="toggle-topbar menu-icon">
+					<a href="#"><span></span></a>
+				</li>
+			</ul>
+
+			<section class="top-bar-section">
+				<ul id="topBarList" class="right">
+					<li><a href="#butlerBanner">Top Of Page</a></li>
+					<li><a href="#explorePage">About</a></li>
+					<li><a href="#studentSection">For Students</a></li>
+					<li><a href="#parentSection">For Parents</a></li>
+					<li><a href="#contactSection">Contact</a></li>
+					<!--
+					<li class="has-dropdown">
+						<a href="#">Programs</a>
+						<ul class="dropdown">
+							<li><a href="#">Clubs</a></li>
+							<li><a href="#">Athletics</a></li>
+							<li><a href="#">ROTC</a></li>
+							<li class="divider"><a href="#"></a></li>
+							<li><a href="#">Other</a></li>
+						</ul>
+					</li>
+					--><!--For future relase-->
+				</ul>	
+			</section>
+		</nav> 
+	</div>
+
+	<section id="butlerBanner" class="row">
+					<!--Wrap divs in slick slider when multiple things show up-->
+					<div class="large-6 column">
+									<img src="images/butlerBear.jpg">
+					</div>	
+					<div id="butlerWelcomeContainer" class="large-6 column">
+									<h3 id="butlerWelcome">Welcome To The (Un)Official Butler Traditional High School Page!</h3>
+					</div>
+	</section>
+	<!--Section encouraging page exploration-->
+	<section id="explorePage" class="row">
+		<div class="slickSlider medium-12 column">
+						<p id="butlerExplore"> 
+							<!--Will be the Butler Blue color-->
+							Don't hesitate to browse around the site! Trust us, you'll like what you see here.
+						</p>
+						<p id="butlerTest"> 
+								Our Mission Statement is this: We are here to support our students and our parents.
+								<a href="#" data-reveal-id="myModal">Click here for the full mission statement</a>
+						</p>
+		</div>
+	</section>
+	
+	<!--A Section for student. InkSpot being the big start here-->
+	<section id="studentSection" class="row">
+						<div class="row">
+							<p class="medium-6 medium-centered column">This section is for the students!</p>
+						</div>
+		<!--Start of slick slider here-->
+		<article id="studentPart" class="slickStudent medium-12 column">
+						<div id="studentSlide1">
+										<p class="medium-6 column">
+											<img id="inkspotImage" src="images/inkspotIcon.png" alt="Inkspot For The Students!!!"/>	
+										</p>
+										<p class="medium-6 column">Want to read something halfway decent? Guess what!? YOU CAN! With the InkSpot. Read what your peers have to say about what's going on at school!</p>
+						</div>
+						<div id="studentSlide2">
+										<div id="lunchImage" class="medium-6 column">
+														<img src="images/lunchMenu.jpg">
+										</div>
+										<div id="lunchDescription" class="medium-6 column">
+														<h3 id="lunchText"> 
+														Take a look at our lunch menu! From here, you can keep up to date on what you are going to be eating every week. It's kind of cool to know. Trust me. <a href="http://www.jefferson.k12.ky.us/Departments/NutritionServices/menus/lunchhs.pdf">Click here!</a>
+														</h3>
+										</div>
+						</div>
+						<div id="studentSlide3">
+										<div id="actprepImage" class="medium-6 column">
+														<img src="images/ACTPrep.gif">
+										</div>
+														<div id="actprepDescription" class="medium-6 column">
+																		<h3 id="actprepText">ACT Prep Information! Why not click <a href="http://www.tcaprep.com/nsg/index.php/members/login/1628135761">here</a> to sign up?</h3>
+														</div>
+										</div>
+						</div>
+		</article>
+		
+		
+	</section>
+	
+	<!--Information for the parents, like the Parent Portal-->
+	<section id="parentSection" class="row slickParent">
+					<!--Beginning of First Slide-->
+								<div id="parentSlidePortal">
+										<div id="topParent" class="row">
+												<p class="medium-4 column">
+													<img id="parentPortalImage" src="images/parentPortalImage.jpg" alt="Check Out The Parent Portal"/>		
+													</p>
+											<p id="topParentText" class="medium-8 column">
+												Check out the Parent Portal.
+											</p>
+										</div>
+										<div id="parentHome">
+													<p id="parentDescription" class="medium-12 column"> 
+															Use the parent portal to keep up with your child's successes in school. Use this to also maintain a good relationships
+															with the teachers and stay up to date on all of the important things with your child.
+													</p>  
+										</div>
+								</div> 
+						<!--Beginning of Third Slide-->
+								<div id="parentAdminPrincipal">
+												<h3 id="principalHeading">THE ADMINISTRATION!</h3>
+												<ul class="small-block-grid-1 medium-block-grid-2" >
+																<li>
+																		<div class="small-3 leftInfo column">
+																						<img src="images/administration/principals/allen.jpg"></a>
+																		</div>
+																		<div class="small-9 rightInfo column">
+																						<p class="staffName">William Allen</p>
+																						<p class="staffTitle">Principal</p>
+																						<p class="staffEmail"><a href='mailto:william.allen@jefferson.kyschools.us'>william.allen@jefferson.kyschools.us</a></p>
+																		</div>
+																</li>
+																<li>
+																	<div class="small-3 leftInfo column">
+																				<img src="images/administration/principals/johnson.jpg"></a>
+																	</div>
+																	<div class="small-9 rightInfo column">
+																		<p class="staffName">Jeremy Johnson</p>
+																		<p class="staffTitle">Freshman Asst. Principal</p>
+																		<p class="staffEmail"><a href="mailto:jeremy.johnson@jefferson.kyschools.us">jeremy.johnson@jefferson.kyschools.us</a></p>
+																	</div>
+																	
+																</li>
+																<li>
+																	<div class="small-3 leftInfo column">
+																				<img src="images/administration/principals/reedy.jpg"></a>
+																	</div>
+																	<div class="small-9 rightInfo column">
+																		<p class="staffName">Rob Reedy</p>
+																		<p class="staffTitle">Senior Asst. Principal</p>
+																		<p class="staffEmail"><a href='mailto:rob.reedy@jefferson.kyschools.us'>rob.reedy@jefferson.kyschools.us</a></p>
+																	</div>
+																</li>
+																<li>
+																		<div class="small-3 leftInfo column">
+																				<img src="images/administration/principals/walker.jpg"></a>
+																		</div>
+																		<div class="small-9 rightInfo column">
+																				<p class="staffName">Kathy Walker</p>
+																				<p class="staffTitle">Asst. Principal/</p>
+																				<p class="staffTitle">Building Assessment Coordinator</p>
+																				<p class="staffEmail"><a href='mailto:kathy.walker@jefferson.kyschools.us'>kathy.walker@jefferson.kyschools.us</a></p>
+																		</div>
+																</li>
+																<li>
+																	<div class="small-3 leftInfo column">
+																				<img src="images/administration/principals/ziegler.jpg"></a>
+																	</div>
+																<div class="small-9 rightInfo column">
+																		<p class="staffName">Travis Ziegler</p>	
+																		<p class="staffTitle">Sophomore/Junior Admin</p>
+																		<p class="staffEmail"><a href="mailto:travis.ziegler@jefferson.kyschools.us">travis.ziegler@jefferson.kyschools.us</a></p>
+																	</div>
+																</li>
+																<li>
+																	<div class="small-3 leftInfo column">
+																		<img src="images/administration/counselor/bonnie_davis.jpg"></a>
+																	</div>
+																	<div class="small-9 rightInfo column">
+																		<p class="staffName">Julianne Davis</p>
+																		<p class="staffTitle">Junior Counselor</p>
+																		<p class="staffEmail"><a href="mailto:julianne.davis@jefferson.kyschools.us">julianne.davis@jefferson.kyschools.us</a></p>
+																	</div>
+																</li>
+																<li>
+																	<div class="small-3 leftInfo column">
+																				<img src="images/administration/counselor/fowler.jpg"></a>
+																	</div>
+																	<div class="small-9 rightInfo column">
+																		<p class="staffName">Kevin Fowler</p>
+																		<p class="staffTitle">Freshman Counselor</p>
+																		<p class="staffEmail"><a href="mailto:kevin.fowler@jefferson.kyschools.us">kevin.fowler@jefferson.kyschools.us</a></p>
+																	</div>
+																</li>
+																<li>
+																	<div class="small-3 leftInfo column">
+																				<img src="images/administration/counselor/mcdevitt.jpg"></a>
+																	</div>
+																	<div class="small-9 rightInfo column">
+																		<p class="staffName">Karin McDevitt</p>
+																		<p class="staffTitle">Sophomore Counselor</p>
+																		<p class="staffEmail"><a href="mailto:karin.mcdevitt@jefferson.kyschools.us">karin.mcdevitt@jefferson.kyschools.us</a></p>
+																	</div>
+																</li>
+																<li>
+																	<div class="small-3 leftInfo column">
+																				<img src="images/administration/counselor/michael_stites.jpg"></a>
+																	</div>
+																	<div class="small-9 rightInfo column">
+																		<p class="staffName">Michael Stites</p>
+																		<p class="staffTitle">Senior Counselor</p>
+																		<p class="staffEmail"><a href="mailto:michael.stites@jefferson.kyschools.us">michael.stites@jefferson.kyschools.us</a></p>
+																	</div>
+																</li>
+												</ul>
+								</div>
+						<!--Beginning of Fourth Slide-->
+								<div id="parentSupportStaff">
+												<h3 id="supportStaffHeading">The Support Staff!</h3>
+												<ul class="small-block-grid-1 medium-block-grid-2">
+																<li>
+																		<div class="small-3 rightInfo column">
+																				<img src="images/administration/support/ingram.jpg"></a>
+																		</div>
+
+																		<div class="small-9 leftInfo column">
+																				<p class="staffName">Sonny Ingram</p>
+																				<p class="staffTitle">Security</p>
+																				<p class="staffEmail"><a href="mailto:melvin.ingram@jefferson.kyschools.us">melvin.ingram@jefferson.kyschools.us</a></p>
+																		</div>
+																</li>
+																<li>
+																		<div class="small-3 rightInfo column">
+																				<img src="images/administration/support/lewis.jpg"></a>
+																		</div> 
+
+																		<div class="small-9 leftInfo column">
+																				<p class="staffName">Debbie Lewis</p>
+																				<p class="staffTitle">School Clerk</p>
+																				<p class="staffEmail"><a href="mailto:debra.lewis@jefferson.kyschools.us">debra.lewis@jefferson.kyschools.us</a></p>
+																		</div>
+																</li>
+																<li>
+																		<div class="small-3 rightInfo column">
+																				<img src="images/administration/support/mary_lou_adams.jpg"></a>
+																		</div>
+																		<div class="small-9 leftInfo column">
+																				<p class="staffName">Mary Lou Adams</p>
+																				<p class="staffTitle">Ordering and Receiving Clerk</p>
+																				<p class="staffEmail"><a href="mailto:marylou.adam@jefferson.kyschools.us">marylou.adam@jefferson.kyschools.us</a></p>
+																		</div>
+																</li>
+																<li>
+																		<div class="small-3 rightInfo column">
+																				<img src="images/administration/support/epperson_dede.jpg"></a>
+																		</div>
+																		<div class="small-9 leftInfo column">
+																				<p class="staffName">DeDe Epperson</p>
+																				<p class="staffTitle">Security</p>
+																				<p class="staffEmail"><a href="mailto:dede.epperson@jefferson.kyschools.us">dede.epperson@jefferson.kyschools.us</a></p>
+																		</div> 
+																</li>
+																<li>
+																		<div class="small-3 rightInfo column">
+																			<img src="images/administration/support/canon_c.jpg"></a>
+																		</div>
+																		<div class="small-9 leftInfo column">
+																			<p class="staffName">Cathy Cannon</p>
+																			<p class="staffTitle">Bookkeeper</p>
+																			<p class="staffEmail"><a href="mailto:cathy.cannon@jefferson.kyschools.us">cathy.cannon@jefferson.kyschools.us</a></p>
+																		</div>
+																</li> 
+																<li>
+																		<div class="small-3 rightInfo column">
+																			<img src="images/administration/support/davis_bonnie_staff.jpg"></a>
+																		</div>
+																		<div class="small-9 leftInfo column">
+																			<p class="staffName">Bonnie Davis</p>
+																			<p class="staffTitle">Attendance Clerk</p>
+																			<p class="staffEmail"><a href="mailto:bonnie.davis@jefferson.kyschools.us">bonnie.davis@jefferson.kyschools.us</a></p>
+																		</div>
+																</li>
+																<li>
+																		<div class="small-3 rightInfo column">
+																			<img src="images/administration/support/french.jpg"></a>
+																		</div>
+																		<div class="small-9 leftInfo column">
+																			<p class="staffName">Vivian French</p>
+																			<p class="staffTitle">Senior Transcripts</p>
+																			<p class="staffEmail"><a href="mailto:vivian.french@jefferson.kyschools.us">vivian.french@jefferson.kyschools.us</a></p>
+																		</div>
+																</li>
+																<li>
+																		<div class="small-3 rightInfo column">
+																			<img src="images/administration/support/kristi_clark.jpg"></a>
+																		</div>
+																		<div class="small-9 leftInfo column">
+																			<p class="staffName">Kristi Clark</p>
+																			<p class="staffTitle">Records Clerk</p>
+																			<p class="staffEmail"><a href="mailto:kristi.clark@jefferson.kyschools.us">kristi.clark@jefferson.kyschools.us</a></p>
+																		</div>
+																</li>  
+																<li>
+																		<div class="small-3 rightInfo column">
+																			<img src="images/administration/support/lewis_lynn.jpg"></a>
+																		</div>
+																		<div class="small-9 leftInfo column">
+																			<p class="staffName">Lynn Lewis</p>
+																			<p class="staffTitle">Youth Services</p>
+																			<p class="staffEmail"><a href="mailto:lynn.lewis@jefferson.kyschools.us">lynn.lewis@jefferson.kyschools.us</a></p>
+																		</div>
+																</li> 
+												</ul>
+								</div>
+				</div><!--End of slick sidebar-->
+	</section>
+	
+	<!--Contact section used to provide feedback, reports, and other things-->
+	<section id="contactSection" class="row">
+		<div class="row">
+			<span class="large-3 large-centered column">We would love to hear from you. Send us some feedback or give us a call! It's YOUR call.</span>
+		</div>
+		
+		<!--NAME INPUT so recipeint can see who send message-->
+		<div id="contactComponents" class="medium-6 column">
+			<label for="#theName">Name:</label>
+			<input id="theName">
+		
+		<!--EMAIL INPUT so recepient knows if the email is malacious or not-->
+			<label for="#theEmail">Email:</label>
+			<input id="theEmail">
+		
+		<!--MESSAGE TEXTAREA for the user to place what it is they wish to say-->
+			<label for="#theMessage">Message:</label>
+			<textarea id="theMessage"></textarea>
+		</div>
+
+		<div id="telephoneInfo" class="medium-6 column">
+			<p id="telephoneDescription">Call Us! Or Fax Us! OR SOMETHING!!!</p>
+			<ul class="vcard" id="telephoneElements">
+				<li>Telephone: <a href="tel:1-502-485-8220">(502) 485-8220 </a></li>
+				<li>Email: <a href="mailto:william.allen@jefferson.kyschools.us">william.allen@jefferson.kyschools.us</a></li>
+				<li>Fax: (502) 485-8517 </li>
+				<li>Address: <a href="https://www.google.com/maps/place/2222+Crums+Ln,+Louisville,+KY+40216/@38.1931221,-85.8155188,17z/data=!3m1!4b1!4m2!3m1!1s0x886913aed2471259:0xa6abd35efd890b19">2222 Crums Ln, Louisville KY 40216</a></li>
+			</ul>
+		</div>
+		
+	</section>
+
+		<!--Other means of contact. Like Telephone and Email-->
+	
+	<!--Footer to hold copyright year, address of the school, and the name of the company (me) who designed the page-->
+	<footer class="row">
+		
+		<div class="medium-6 medium-centered column">
+			&copy; copyright 2015 | 2222 Crums Lane | ADaviii Pgs
+		</div>
+	</footer>
+
+	<div id="myModal" class="reveal-modal" data-reveal>
+					<p><!--beginning of Modal Content-->
+					<h2>Our Mission</h2>
+					<p class="lead">
+								Our mission is to produce informed responsible, contributing members of society. In order to do this, we offer a safe and structured learning environment that fosters a positive self-concept and perpetuates self-motivation and high academic achievement.
+					</p>
+					<h2>Values</h2>
+
+					<p>Student learning is the chief priority of Butler Traditional High School. Students learn at their own pace and level.
+										A safe, secure, and physically comfortable environment is essential to student learning.
+										Each student is a valued individual with unique physical, social, emotional, and intellectual needs.
+										Curriculum and instructional practices will incorporate a variety of learning activities with high expectations.
+										All students will be prepared to successfully transition into the real world.
+										Morality, patriotism, citizenship, and character will be emphasized in a structured learning environment.
+										Each student will be provided with avenues which promote aesthetic growth through creative thinking and creative expression.
+										Teachers, administrators, parents, students, and the communities share the responsibility for each student's educational growth.
+							</p>
+							<h2>Purpose</h2>
+
+							<p>	The traditional program provides a structured and time-tested educational climate for those students who perform best with such an environment. Because of an expressed need by a segment of our community, traditional schools promote established educational goals, develop and incorporate resources traditional to the attainment of those goals, and maintain a staff dedicated to rigorous academic, moral, and physical expectations. Within this framework, the traditional program stresses the following:
+
+										Mastery of skills for each grade level, including an emphasis in listening, reading penmanship, grammar usage, composition, spelling, and mathematics.
+										Study and understanding of history, government, geography, literature, economics, sciences, foreign languages (7-12), and fine arts.
+										Development and extension of logical reasoning, inquiry, and analysis.
+										Homework assigned on a regular basis to reinforce and enhance classroom learning.
+										Frequent contact and communication between school and home.
+										Physical development in personal health, physical fitness, and recreational and competitive sports in middle and high schools.
+										Traditional concepts of patriotism, courtesy, moral values, individual rights, and respect for authority.
+										Clearly established codes of conduct, dress, and rules of operation.
+										</p>
+						</p><!--ending of Modal Content-->
+			<a class="close-reveal-modal" aria-label="Close">&#215;</a>
+	</div>
+
+	<!--	<script src="https://maps.googleapis.com/maps/api/js"></script> -->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="foundation/js/foundation.min.js"></script>	
+		<script type="text/javascript" src="slick/slick.min.js"></script>
+		<script type="text/javascript" src="js/theSlide.js"></script>
+
+		<!--NOTES-->
+		<!--Add Administration and Support Staff Slides with Foundation Block Grid-->
+		<!--Potentially Add functionality: Click on image, that image shows up in middle of section with name/email-->
+>>>>>>> a4f2eb838bd2e0b769feed2b181e1f4718c90ae9
 	</body>
 </html>
